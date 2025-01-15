@@ -15,18 +15,8 @@ header {
 header h1 {
     margin: 0;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+
+
 main {
     padding: 20px;
 }
@@ -38,20 +28,36 @@ footer {
 }
 
 
-.language-switch {
-    text-align: right;
-    margin: 20px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    margin: 0;
 }
 
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Style spécifique pour les boutons de langue */
 .language-button {
     background-color: #007BFF;
     color: white;
-    padding: 10px 15px;
-    margin: 5px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 14px;
-    display: inline-block;
 }
 
 .language-button:hover {
