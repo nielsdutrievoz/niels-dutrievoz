@@ -36,3 +36,23 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+
+.language-switch {
+    text-align: right;
+    margin: 20px;
+}
+
+.language-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.language-button:hover {
+    background-color: #0056b3;
+}
